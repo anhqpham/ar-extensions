@@ -2,7 +2,7 @@ require 'rake'
 
 Gem::Specification.new do |s|
   s.name = %q{ar-extensions}
-  s.version = "0.9.2"
+  s.version = "0.9.4"
   s.date = %q{2009-04-20}
   s.summary = %q{Extends ActiveRecord functionality.}
   s.email = %q{zach.dennis@gmail.com}
@@ -15,5 +15,5 @@ Gem::Specification.new do |s|
   s.files = FileList[ 'init.rb', 'db/**/*', 'Rakefile', 'ChangeLog', 'README', 'config/**/*', 'lib/**/*.rb', 'test/**/*' ]
   s.rdoc_options = ["--main", "README"]
   s.extra_rdoc_files = ["README"]
-  s.add_dependency(%q<activerecord>, [">= 2.1.2"])
+  s.add_dependency(%q<activerecord>, [">= 3.0.0"])
 end
